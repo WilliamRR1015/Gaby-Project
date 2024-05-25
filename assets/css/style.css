@@ -1,0 +1,121 @@
+body {
+    align-items: center;
+    background-color: #eed6b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    align-items: center;
+    color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    width: 200px;
+    margin-left: 10%;
+}
+
+header h1 {
+    font-size: 18px;
+    margin-right: 10%;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.container-content img {
+    position: absolute;
+    padding: 10px;
+    width: 200px;
+}
+
+.img-deporte {
+    left: 0;
+    top: 0;
+}
+
+.img-recreacion {
+    top: 0;
+    right: 0;
+}
+
+.img-terapia {
+    left: 0;
+    bottom: 0;
+}
+
+.img-deportes {
+    right: 0;
+    bottom: 0;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 60%;
+    height: 80vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer img {
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    header img {
+        width: 150px;
+    }
+    header h1 {
+        font-size: 16px;
+    }
+    main {
+        padding: 10px;
+    }
+    .container-content img {
+        display: none;
+    }
+    iframe {
+        width: 80%;
+        height: auto;
+    }
+    footer img {
+        width: 100px;
+        height: 70px;
+    }
+}
